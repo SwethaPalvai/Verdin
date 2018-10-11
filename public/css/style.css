@@ -1,0 +1,134 @@
+body {
+   font-family: Lato,Helvetica,Arial,sans-serif;
+}
+* 
+{
+   box-sizing: border-box;
+}
+
+.bg-img {
+   background-image: url("../images/download.jpg");
+   min-height: 380px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+   position: absolute;
+   margin: 20px;
+   width: auto;
+}
+
+/* The navbar */
+.topnav {
+   overflow: hidden;
+   /*background-color: #333;*/
+}
+
+/* Navbar links */
+.topnav .topnavitems {
+   float: right;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+   margin-top: 20px;
+}
+
+.topnav a img {
+   height: 100px;
+   width: 100px;
+   left: 20px;
+}
+
+.topnav a:hover {
+   background-color: #ddd;
+   /*color: black;*/
+   color: #f15a29;
+}
+
+#navbar {
+   background-color: #333;
+   position: fixed;
+   top: -130px;
+   width: 100%;
+   display: block;
+   transition: top 0.3s;
+   padding: 15px;
+}
+
+#navbar a img {
+   height: 75px;
+   width: 75px;
+   left: 20px;
+}
+
+#navbar .navitems {
+   float: right;
+   display: block;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 15px;
+   /*padding-left: 15px;
+   padding-right: 15px;*/
+   text-decoration: none;
+   font-size: 17px;
+   /*margin-top: 20px;*/
+   /*margin-right: 20px;*/
+}
+
+#navbar a:hover {
+   background-color: #ddd;
+   /*color: black;*/
+   color: #f15a29;
+}
+
+.topfooter {
+   display: flex;
+   padding: 40px 40px;
+   background-color: #858585;
+   color: #fff;
+}
+
+.topfooter p {
+   flex: 1;
+   margin: 0;
+}
+
+.firstli a {
+   color: white;
+}
+
+.nextli {
+   padding-top: 20px;
+}
+
+.nextli a {
+   color: #A4A4A4;
+}
+.firstli {
+   padding-bottom: 20px;
+}
+
+.topfooter div ul {
+   list-style: none;
+}
+
+.topfooter {
+   background-color: #2E2E2E;
+}
+
+.bottomfooter {
+   background-color: #151515;
+   color: #585858;
+   padding: 45px;
+   text-align: center;
+}
+
+footer {
+   width: 100%;
+}
