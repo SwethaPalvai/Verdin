@@ -47,6 +47,7 @@ body {
    color: #f2f2f2;
    text-decoration: none;
 }
+
 .topnava:active {
    color: #f2f2f2;
    text-decoration: none;
@@ -170,7 +171,7 @@ body {
 }
 .scroll:hover {
    border: 1px solid #f15a29;
-   background:#f15a29;
+   background: #f15a29;
    transition: 0.5s;
    -moz-transition: 0.5s;
    -webkit-transition: 0.5s;
@@ -221,6 +222,49 @@ body {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.skill {
+   padding:25px 25px;
+   font-size:20px
+}
+
+.set {
+   padding-bottom:25px;
+}
+
+.middleset {
+   
+}
+
+.skillset {
+   /*border: 1px solid black;*/
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.skillset:hover .image {
+  opacity: 0.3;
+}
+
+.skillset:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #f15a29;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
 
 @media (min-width: 481px) and (max-width: 599px) {
    .topnav .topnavitems {
