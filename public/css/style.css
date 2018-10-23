@@ -1,5 +1,6 @@
 body {
    font-family: Lato,Helvetica,Arial,sans-serif;
+   overflow-x: hidden;
 }
 * {
    box-sizing: border-box;
@@ -262,6 +263,27 @@ body {
   padding: 16px 32px;
 }
 
+.whoweare {
+   background-color: #f15a29;
+   color: white;
+   padding: 6em;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+   .topnavitems li {
+      padding: 0.3em;
+   }
+   #navbar .navitems {
+      padding: 10px;
+   }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .topnavitems li {
+      padding: 0.2em;
+   }
+}
+
 @media (min-width: 481px) and (max-width: 599px) {
    .topnav .topnavitems {
       padding: 10px 10px;
@@ -281,19 +303,19 @@ body {
 }
 
 /*Start code Added by Abhilash on 22Oct2018*/
-.topnav a{
-text-decoration: none;
+.topnav a {
+   text-decoration: none;
 }
 
-.topnavitems{
+.topnavitems {
 	padding: 1em 1em;
 	display:inline;
 }
-.topnavitems li{
+.topnavitems li {
 	list-style:none;
 	padding:1em;
 }
-.topnavitems > li{
+.topnavitems > li {
 	display:inline-table;	
 }
 
