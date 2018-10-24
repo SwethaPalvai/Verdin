@@ -266,7 +266,7 @@ body {
 .whoweare {
    background-color: #f15a29;
    color: white;
-   padding: 6em;
+   padding: 5em;
 }
 
 @media (min-width: 481px) and (max-width: 767px) {

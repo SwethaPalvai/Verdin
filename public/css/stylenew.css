@@ -1,0 +1,231 @@
+/* Swetha Oct 24  */
+body {
+   font-family: Lato,Helvetica,Arial,sans-serif;
+   overflow-x: hidden;
+}
+.navbanner {
+	background-image: url("https://echogravity.com/wp-content/uploads/2015/10/Slider-Image4.jpg");
+	min-height: 400px;
+}
+.navitems {
+	text-align: right;
+	text-decoration: none;
+	padding: 2.5em;
+	font-size: 1.2em;
+}
+.navitems a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.navitems li {
+	display: inline;
+	padding: 1em;
+}
+.navitems li {
+	list-style:none;
+}
+.navitems li img {
+	height: 6em;
+	width: 6em;
+} 
+.navitems ul li a:hover {
+	color: #f15a29!important;
+	background-color: white;
+}
+.navbanner>.navitems>ul>li:hover {
+	background-color: white;
+	color: #f15a29!important;
+}
+.navbanner>.navitems>ul>li:active {
+	background-color: white!important;
+	color: #f15a29!important;
+}
+.icon-bar {
+	background-color: #f15a29!important;
+}
+.navbar-inverse .navbar-toggle {
+	background-color: white!important;
+	border: none!important;
+}
+.navbar-inverse .navbar-nav>li>a {
+   color: #222222;
+   font-size: 1em;
+	text-transform: uppercase;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+   color: #f15a29;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+   color: #f15a29;
+   background-color: white;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+   color: #222222;
+   font-size: 0.8em;
+   text-transform: uppercase;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:active {
+   color: #f15a29;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+   color: #f15a29;
+}
+.dropdown-menu {
+	padding: 0px;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+   background-color: white;
+   color: #f15a29;
+}
+.footer {
+	background-color: #2E2E2E;
+	width: 100%;
+	padding: 5em;
+}
+.footer li {
+	list-style:none;
+}
+.footer .firstli {
+	padding-bottom: 3em;
+}
+.footer .nextli {
+	padding-bottom: 2em;
+}
+.footer li a {
+	color: white;
+}	
+.footer li a:hover {
+	text-decoration: none;
+}
+.bottomfooter {
+   background-color: #151515;
+   color: #585858;
+   padding: 3em;
+   text-align: center;
+}
+.proficiency {
+	height: 20em;
+}
+.scrolltop {
+   display:none;
+   width:100%;
+   margin:0 auto;
+   position:fixed;
+   bottom:20px;
+   right:10px; 
+}
+.scroll {
+   position:absolute;
+   right:20px;
+   bottom:20px;
+   border: 1px solid #b2b2b2;
+   color: #f15a29;
+   /*background:#b2b2b2;*/
+   /*background:rgba(178,178,178,0.7);*/
+   padding:15px;
+   text-align: center;
+   margin: 0 0 0 0;
+   cursor:pointer;
+   transition: 0.5s;
+   -moz-transition: 0.5s;
+   -webkit-transition: 0.5s;
+   -o-transition: 0.5s;       
+}
+.scroll:hover {
+   border: 1px solid #f15a29;
+   background: #f15a29;
+   transition: 0.5s;
+   -moz-transition: 0.5s;
+   -webkit-transition: 0.5s;
+   -o-transition: 0.5s;       
+}
+
+.fa-arrow-up {
+   color: #767e78;
+}
+.scroll:hover .fa {
+   padding-top:-10px;
+   color: white;
+}
+.scroll .fa {
+   font-size:30px;
+   margin-top:-5px;
+   margin-left:1px;
+   transition: 0.5s;
+   -moz-transition: 0.5s;
+   -webkit-transition: 0.5s;
+   -o-transition: 0.5s;    
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+   .navitems {
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+		padding-top: 2.5;
+		padding-bottom: 1.5em;
+		font-size: 1.2em;
+	}
+	.navitems li {
+		padding: 0.6em;
+	}
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.navitems {
+		padding-left: 1.2em;
+		padding-right: 1.2em;
+		padding-top: 2.5;
+		padding-bottom: 1.2em;
+		font-size: 1em;
+	}
+	.navitems li {
+		padding: 0.5em;
+	}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+ 
+}
