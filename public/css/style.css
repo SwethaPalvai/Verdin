@@ -61,8 +61,10 @@ body {
 } */
 
 .dropdown-content a:hover {
-   color: #f15a29;
-   background-color: #ddd;
+   /*color: #f15a29;*/
+   color: #FEFFFF;
+   /*background-color: #ddd;*/
+   background-color: #2B7A78;
 }
 
 #navbar {

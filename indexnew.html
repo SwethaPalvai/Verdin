@@ -10,17 +10,17 @@
 	  	<link rel="stylesheet" href="public/css/stylenew.css">
 	</head>
 	<body>
-		<nav class="navbar navbar-inverse hide">
+		<nav class="navbar navbar-inverse navbarinverse">
 	  		<div class="container-fluid">
-	    		<div class="navbar-header">
-		      	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	    		<div class="navbar-header navbarheader">
+		      	<button type="button" class="navbar-toggle navbartoggle" data-toggle="collapse" data-target="#myNavbar">
 		         	<span class="icon-bar"></span>
 		        		<span class="icon-bar"></span>
 		        		<span class="icon-bar"></span> 
 		      	</button>
 	    		</div>
-		    	<div class="collapse navbar-collapse" id="myNavbar">
-			      <ul class="nav navbar-nav">
+		    	<div class="collapse navbar-collapse navbarcollapse" id="myNavbar">
+			      <ul class="nav navbar-nav navbarnav">
 			         <li class="dropdown">
 				      	<a class="dropdown-toggle" data-toggle="dropdown" href="#">FOR JOB SEEKERS
 				         <span class="caret"></span></a>
@@ -52,15 +52,15 @@
 					</li>
 				</ul>
 				<ul>
-					<li class="navli active"><a class="" href="#home">Home</a></li>
-					<li class="navli dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">For Job Seekers <span class="caret"></span></a>
+					<li class="navli active linkli"><a class="navlink" href="#home">Home</a></li>
+					<li class="navli dropdown linkli">
+						<a href="#" class="dropdown-toggle navlink" data-toggle="dropdown">For Job Seekers <span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="#">Search Jobs</a></li>
 						</ul>
 					</li>
-					<li class="navli dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">For Bussiness <span class="caret"></span></a>
+					<li class="navli dropdown linkli">
+						<a href="#" class="dropdown-toggle navlink" data-toggle="dropdown">For Bussiness <span class="caret"></span></a>
 						<ul class="dropdown-menu">
 			         	<li><a href="#">Staffing & Recruitment</a></li>
 			         	<li><a href="#">HR Solutions</a></li>
@@ -68,17 +68,91 @@
 			         	<li><a href="#">IT OutSourcing</a></li>
 			         </ul>
 					</li>
-					<li>
-						<a href="#">About Us</a>
+					<li class="linkli">
+						<a href="#" class="navlink">About Us</a>
 					</li>
-					<li>
-						<a href="#">Contact Us</a>
+					<li class="linkli">
+						<a href="#" class="navlink">Contact Us</a>
 					</li>
 				</ul>
 			</div>
 		</div>
+		<nav class="navbar navbar-inverse" id="navbar">
+  			<div class="container-fluid">
+		   	<div class="navbar-header">
+		      	<a class="navbar-brand" href="#"><img src="./public/images/hr-manager.jpg"></a>
+		    	</div>
+		    	<ul class="nav navbar-nav navbar-right navbarright">
+			      <li class="active"><a href="#" class="navanchor">Home</a></li>
+			      <li class="dropdown">
+			      	<a class="dropdown-toggle navanchor" data-toggle="dropdown" href="#">For Job Seekers
+			         <span class="caret"></span></a>
+			         <ul class="dropdown-menu">
+			         	<li><a href="#">Search Jobs</a></li>
+			         </ul>
+			      </li>
+			      <li class="dropdown">
+			      	<a class="dropdown-toggle navanchor" data-toggle="dropdown" href="#">For Bussiness
+			         <span class="caret"></span></a>
+			         <ul class="dropdown-menu">
+			         	<li><a href="#">Staffing & Recruitment</a></li>
+			         	<li><a href="#">HR Solutions</a></li>
+			         	<li><a href="#">Consulting</a></li>
+			         	<li><a href="#">IT OutSourcing</a></li>
+			         </ul>
+			      </li>
+			      <li class="navanchor"><a href="#">About Us</a></li> 
+		         <li class="navanchor"><a href="#">Contact Us</a></li> 
+			   </ul>
+  			</div>
+		</nav>
 		<div class="proficiency">
-			
+			<h3 align="middle" id="proficiency">Proficiency</h3>
+			<div class="row">
+				<div class="zoom col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<img src="./public/images/nathan.jpg" alt="picture1">
+					<div class="centered"><h3>Accounting</h3></div>
+				</div>
+				<div class="zoom col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<img src="./public/images/10.jpg" alt="picture1">
+					<div class="centered"><h3>Admin</h3></div>
+				</div>
+				<div class="zoom col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<img src="./public/images/d-1.jpg" alt="picture1">
+					<div class="centered"><h3>Engineering</h3></div>
+				</div>
+				<div class="zoom col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<img src="./public/images/11.jpg" alt="picture1">
+					<div class="centered"><h3>HealthCare</h3></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="zoom col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<img src="./public/images/3-1.jpg" alt="picture1">
+					<div class="centered"><h3>Human Resources</h3></div>
+				</div>
+				<div class="zoom col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<img src="./public/images/hotspot-1.jpg" alt="picture1">
+					<div class="centered"><h3>Information Technology</h3></div>
+				</div>
+				<div class="zoom col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<img src="./public/images/8.jpg" alt="picture1">
+					<div class="centered"><h3>Manufacturing</h3></div>
+				</div>
+				<div class="zoom col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<img src="./public/images/9.jpg" alt="picture1">
+					<div class="centered"><h3>Medical</h3></div>
+				</div>
+			</div>
+		</div>
+		<div class="staffing">
+			staffing
+		</div>
+		<div class="forjobseekers">
+			jobseekers
+		</div>
+		<div class="foremployers">
+			employers
 		</div>
 		<div class="footer container-fluid">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
