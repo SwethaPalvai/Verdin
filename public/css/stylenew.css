@@ -149,6 +149,9 @@ nav {
 	padding: 2em;
 	text-transform: uppercase;
 }
+.proficiency{
+	background:whitesmoke;
+}
 .centered {
    position: absolute;
    top: 50%;
@@ -156,9 +159,10 @@ nav {
    transform: translate(-50%, -50%);
 }
 .zoom img {
-	height: 30em;
-	width: 24.65em;
+	height: 20em;
+	width: 25em;
 	opacity: 0.8;
+
 }
 .zoom {
    transition: transform .5s;
@@ -167,7 +171,7 @@ nav {
    text-align: center;
    color: #3AAFA9;
 }
-.zoom:hover {
+.zoom img:hover {
    -ms-transform: scale(1); /* IE 9 */
    -webkit-transform: scale(1); /* Safari 3-8 */
    transform: scale(1.1); 
