@@ -350,8 +350,9 @@ hr {
       display: none;
    }
    .topfootermobile hr {
-      margin-top: -0.7em;
+      margin-top: -1em;
       width: 1em;
+      margin-bottom: 0em;
    }
    .topfootermobile h4 {
       padding-bottom: 1em;
