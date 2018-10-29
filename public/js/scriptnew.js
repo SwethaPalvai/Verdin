@@ -44,6 +44,9 @@ $(document).on('click', '.navitems .linkli', function(){
 		$(this).addClass('active');
 	}
 });
+$(document).on('hover', '.linkli', function(){
+	alert();
+});
 // $(document).on('click', '.dropdown-menu li', function(){
 // 	if($('.dropdown-menu li').siblings().hasClass('active')) {
 // 		$('.navitems li').siblings().removeClass('active');
