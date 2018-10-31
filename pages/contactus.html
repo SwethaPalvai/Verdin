@@ -4,11 +4,11 @@
 		<title>Insight17</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="public/css/bootstrap.min.css">
-		<link rel="stylesheet" href="public/css/font-awesome.min.css">
-		<link rel="stylesheet" href="public/css/stylenew.css">
-		<link rel="stylesheet" href="public/css/animate.css">
-		<script src="public/js/jquery-3.3.1.min.js"></script>
+		<link rel="stylesheet" href="../public/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../public/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../public/css/stylenew.css">
+		<link rel="stylesheet" href="../public/css/animate.css">
+		<script src="../public/js/jquery-3.3.1.min.js"></script>
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse navbarinverse">
@@ -23,14 +23,14 @@
 		    	<div class="collapse navbar-collapse navbarcollapse" id="myNavbar">
 					<ul class="nav navbar-nav navbarnav">
 						<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="./pages/jobseekers.html">FOR JOB SEEKERS
+							<a class="dropdown-toggle" data-toggle="dropdown" href="./jobseekers.html">FOR JOB SEEKERS
 							<span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="#">Search Jobs</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="./pages/business.html">For Bussiness
+							<a class="dropdown-toggle" data-toggle="dropdown" href="./business.html">For Bussiness
 							<span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="#">Staffing & Recruitment</a></li>
@@ -39,8 +39,8 @@
 								<li><a href="#">IT OutSourcing</a></li>
 							</ul>
 						</li>
-						<li><a href="./pages/aboutus.html">About Us</a></li> 
-						<li><a href="../pages/contactus.html">Contact Us</a></li> 
+						<li><a href="./aboutus.html">About Us</a></li> 
+						<li class="active"><a href="#">Contact Us</a></li> 
 					</ul>
 		    	</div>
 	  		</div>
@@ -49,19 +49,19 @@
 			<div class="navitems">
 				<ul class="pull-left">
 					<li class="navli">
-						<a href="#"><img src="./public/images/hr-manager.jpg"></a>
+						<a href="#"><img src="../public/images/hr-manager.jpg"></a>
 					</li>
 				</ul>
 				<ul>
-					<li class="navli active linkli"><a class="navlink active" href="#">Home</a></li>
+					<li class="navli linkli"><a class="navlink" href="../indexnew.html">Home</a></li>
 					<li class="navli dropdown linkli">
-						<a href="./pages/jobseekers.html" class="dropdown-toggle navlink" data-toggle="dropdown">For Job Seekers <span class="caret"></span></a>
+						<a href="./jobseekers.html" class="dropdown-toggle navlink" data-toggle="dropdown">For Job Seekers <span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="#">Search Jobs</a></li>
 						</ul>
 					</li>
 					<li class="navli dropdown linkli">
-						<a href="./pages/business.html" class="dropdown-toggle navlink" data-toggle="dropdown">For Bussiness <span class="caret"></span></a>
+						<a href="./business.html" class="dropdown-toggle navlink" data-toggle="dropdown">For Bussiness <span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="#">Staffing & Recruitment</a></li>
 							<li><a href="#">HR Solutions</a></li>
@@ -70,10 +70,10 @@
 						</ul>
 					</li>
 					<li class="linkli">
-						<a href="./pages/aboutus.html" class="navlink">About Us</a>
+						<a href="./aboutus.html" class="navlink">About Us</a>
 					</li>
-					<li class="linkli">
-						<a href="./pages/contactus.html" class="navlink">Contact Us</a>
+					<li class="active linkli">
+						<a href="#" class="navlink">Contact Us</a>
 					</li>
 				</ul>
 			</div>
@@ -81,19 +81,19 @@
 		<nav class="navbar navbar-inverse" id="navbar">
   			<div class="container-fluid">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="#"><img src="./public/images/hr-manager.jpg"></a>
+					<a class="navbar-brand" href="#"><img src="../public/images/hr-manager.jpg"></a>
 				</div>
 		    	<ul class="nav navbar-nav navbar-right navbarright">
-					<li class="active"><a href="#" class="navanchor">Home</a></li>
+					<li class=""><a href="../indexnew.html" class="navanchor">Home</a></li>
 					<li class="dropdown">
-						<a class="dropdown-toggle navanchor" data-toggle="dropdown" href="./pages/jobseekers.html">For Job Seekers
+						<a class="dropdown-toggle navanchor" data-toggle="dropdown" href="./jobseekers.html">For Job Seekers
 						<span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="#">Search Jobs</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a class="dropdown-toggle navanchor" data-toggle="dropdown" href="./pages/business.html">For Bussiness
+						<a class="dropdown-toggle navanchor" data-toggle="dropdown" href="./business.html">For Bussiness
 						<span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="#">Staffing & Recruitment</a></li>
@@ -102,57 +102,43 @@
 							<li><a href="#">IT OutSourcing</a></li>
 						</ul>
 					</li>
-					<li class="navanchor"><a href="./pages/aboutus.html">About Us</a></li> 
-					<li class="navanchor"><a href="./pages/contactus.html">Contact Us</a></li> 
+					<li class="navanchor"><a href="./aboutus.html">About Us</a></li> 
+					<li class="active navanchor"><a href="#">Contact Us</a></li> 
 			   </ul>
   			</div>
 		</nav>
-		<div class="proficiency container-fluid">
-			<h2 align="middle" id="proficiency">Proficiency</h2>
+		<div class="container-fluid ContactUs">
 			<div class="row">
-				<div class="zoom col-xs-12 col-sm-3 col-md-3 col-lg-3">
-					<img class="img-thumbnail" src="./public/images/nathan.jpg" alt="Accounting">
-					<div class="centered"><h3>Accounting</h3></div>
+				<h2 align="middle" class="contactheading">Contact Us</h2>
+				<div class="col-sm-offset-2 col-sm-3">
+					<i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+					<h4 id="addr"><b>Address</b></h4>
+					<h5 class="description">
+						Insaits Service Corporation Pvt Ltd,
+						Siddharth Tower, First Floor, Behind Anand Cinema, Thane (e)
+						Mumbai,  Maharashtra, 400603.
+					</h5>
 				</div>
-				<div class="zoom col-xs-12 col-sm-3 col-md-3 col-lg-3">
-					<img class="img-thumbnail" src="./public/images/10.jpg" alt="Admin">
-					<div class="centered"><h3>Admin</h3></div>
+				<div class="col-sm-3">
+					<i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+					<h4 id="phone"><b>Phone</b></h4>
+					<h5 class="description">
+						Insaits Service Corporation Pvt Ltd,
+						9848000000 Phone.
+						<p>040-2345678.</p>
+					</h5>
 				</div>
-				<div class="zoom col-xs-12 col-sm-3 col-md-3 col-lg-3">
-					<img class="img-thumbnail" src="./public/images/d-1.jpg" alt="Engineering">
-					<div class="centered"><h3>Engineering</h3></div>
-				</div>
-				<div class="zoom col-xs-12 col-sm-3 col-md-3 col-lg-3">
-					<img class="img-thumbnail" src="./public/images/11.jpg" alt="HealthCare">
-					<div class="centered"><h3>HealthCare</h3></div>
-				</div>
-				<div class="zoom col-xs-12 col-sm-3 col-md-3 col-lg-3">
-					<img class="img-thumbnail" src="./public/images/3-1.jpg" alt="Human Resources">
-					<div class="centered"><h3>Human Resources</h3></div>
-				</div>
-				<div class="zoom col-xs-12 col-sm-3 col-md-3 col-lg-3">
-					<img class="img-thumbnail" src="./public/images/hotspot-1.jpg" alt="Information Technology">
-					<div class="centered"><h3>Information Technology</h3></div>
-				</div>
-				<div class="zoom col-xs-12 col-sm-3 col-md-3 col-lg-offset-2 col-lg-3">
-					<img class="img-thumbnail" src="./public/images/8.jpg" alt="Manufacturing">
-					<div class="centered"><h3>Manufacturing</h3></div>
-				</div>
-				<div class="zoom col-xs-12 col-sm-3 col-md-3 col-lg-3">
-					<img class="img-thumbnail" src="./public/images/9.jpg" alt="Medical">
-					<div class="centered"><h3>Medical</h3></div>
+				<div class="col-sm-3">
+					<i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+					<h4 id="email"><b>Email</b></h4>
+					<h5 class="description">
+						Insaits Service Corporation Pvt Ltd,
+						info@insaits.com
+					</h5>
 				</div>
 			</div>
 		</div>
-		<div class="staffing">
-			staffing
-		</div>
-		<div class="forjobseekers">
-			jobseekers
-		</div>
-		<div class="foremployers">
-			employers
-		</div>
+		<div class="container-fluid" id="googleMap"></div>
 		<footer>
 			<div class="topfooter container-fluid">
 				<div class="row footerheadings">
@@ -240,8 +226,17 @@
 		<div class="scrolltop">
 		   <div class="scroll icon"><i class="fa fa-arrow-up"></i></div>
 		</div>
-		<script src="public/js/bootstrap.min.js"></script>
-		<script src="public/js/scriptnew.js"></script>
+		<script>
+		function myMap() {
+		var mapProp= {
+		    center:new google.maps.LatLng(17.3688,78.5247),
+		    zoom:15,
+		};
+		var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+		}
+		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAb87USXfTGKXvnUPohXwEKAXSnzU8Vlmw&callback=myMap"></script>
+		<script src="../public/js/bootstrap.min.js"></script>
+		<script src="../public/js/scriptnew.js"></script>
 	</body>
 </html>
-<!-- background-image: url("https://echogravity.com/wp-content/uploads/2015/10/Slider-Image4.jpg"); transform: matrix(1.2, 0, 0, 1.2, 0, 0) rotate(0.01deg); -->

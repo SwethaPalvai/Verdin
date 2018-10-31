@@ -1,12 +1,25 @@
+$(document).ready(function(){
+	$('#proficiency').addClass('animated');
+	$('#proficiency').addClass('jackInTheBox');
+	$('.contactheading').addClass('animated');
+	$('.contactheading').addClass('jackInTheBox');
+});
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-20em";
-  }
+   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+   	document.getElementById("navbar").style.top = "0";
+   } else {
+   	document.getElementById("navbar").style.top = "-20em";
+   }
 }
-
+$(window).on('beforeunload', function(){
+   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+   	document.getElementById("navbar").style.top = "0";
+   } 
+   else {
+   	document.getElementById("navbar").style.top = "-20em";
+  	}
+});
 $(window).scroll(function() {
     if ($(this).scrollTop() > 50 ) {
         $('.scrolltop:hidden').stop(true, true).fadeIn();
@@ -44,9 +57,22 @@ $(document).on('click', '.navitems .linkli', function(){
 		$(this).addClass('active');
 	}
 });
-$(document).on('hover', '.linkli', function(){
-	alert();
+$(document).on('mouseover, mouseenter', '.linkli, .dropdown', function(){
+	$('.dropdown-menu',this).show();
+	$('.dropdown-menu',this).css("overflow-y", "hidden");
 });
+$(document).on('mouseout, mouseleave', '.linkli, .dropdown', function(){
+	$('.dropdown-menu',this).hide();
+});
+$(document).on('mouseover, mouseenter', '.fa-map-marker,.fa-phone, .fa-envelope-o, .description, #addr, #phone, #email', function(){
+	$(this).addClass('animated	');
+	$(this).addClass('pulse');
+});
+$(document).on('mouseout, mouseleave', '.fa-map-marker,.fa-phone, .fa-envelope-o, .description, #addr, #phone, #email', function(){
+	$(this).removeClass('animated	');
+	$(this).removeClass('pulse');
+});
+
 // $(document).on('click', '.dropdown-menu li', function(){
 // 	if($('.dropdown-menu li').siblings().hasClass('active')) {
 // 		$('.navitems li').siblings().removeClass('active');
