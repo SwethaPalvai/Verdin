@@ -280,6 +280,28 @@ hr {
 #googleMap {
    height: 30em;
 }
+.aboutheading {
+   padding: 2em;
+}
+.AboutUs {
+   padding: 5em;
+   background-color: #2B7A78;
+}
+.AboutUs h2 {
+   margin-bottom: 2em;
+}
+.mission h5, .vision h5, .values h5 {
+   line-height: 1.5em;
+}
+.vision, .values {
+   padding: 5em;
+}
+.container-fluid h2 {
+   margin-bottom: 2em;
+}
+.valuesrow {
+   background-color: #2B7A78;
+}
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops

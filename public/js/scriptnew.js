@@ -3,6 +3,14 @@ $(document).ready(function(){
 	$('#proficiency').addClass('jackInTheBox');
 	$('.contactheading').addClass('animated');
 	$('.contactheading').addClass('jackInTheBox');
+	$('.aboutheading').addClass('animated');
+	$('.aboutheading').addClass('jackInTheBox');
+	$('.mission').addClass('animated');
+	$('.mission').addClass('fadeInLeftBig');
+	$('.vision').addClass('animated');
+	$('.vision').addClass('fadeInLeftBig');
+	$('.values').addClass('animated');
+	$('.values').addClass('fadeInLeftBig');
 });
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
@@ -69,6 +77,14 @@ $(document).on('mouseover, mouseenter', '.fa-map-marker,.fa-phone, .fa-envelope-
 	$(this).addClass('pulse');
 });
 $(document).on('mouseout, mouseleave', '.fa-map-marker,.fa-phone, .fa-envelope-o, .description, #addr, #phone, #email', function(){
+	$(this).removeClass('animated	');
+	$(this).removeClass('pulse');
+});
+$(document).on('mouseover, mouseenter', '.mission h4,.vision h4, .values h4, .mission h5,.vision h5, .values h5', function(){
+	$(this).addClass('animated	');
+	$(this).addClass('pulse');
+});
+$(document).on('mouseout, mouseleave', '.mission h4,.vision h4, .values h4, .mission h5,.vision h5, .values h5', function(){
 	$(this).removeClass('animated	');
 	$(this).removeClass('pulse');
 });
