@@ -484,3 +484,8 @@ hr {
 		display: none;
 	}
 }
+.navbanner .navitems .navbanneritems>.active{
+	background-color: #2B7A78;
+	color: #FEFFFF!important;
+}
+
