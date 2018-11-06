@@ -5,19 +5,42 @@ $(document).ready(function(){
 	$('.contactheading').addClass('jackInTheBox');
 	$('.aboutheading').addClass('animated');
 	$('.aboutheading').addClass('jackInTheBox');
-	$('.mission').addClass('animated');
-	$('.mission').addClass('fadeInLeftBig');
-	$('.vision').addClass('animated');
-	$('.vision').addClass('fadeInLeftBig');
-	$('.values').addClass('animated');
-	$('.values').addClass('fadeInLeftBig');
+	$('.employersheading').addClass('animated');
+	$('.employersheading').addClass('jackInTheBox');
+	abtheight = $('.AboutUs').height();//alert(abtheight);104
+	visionheight = $('.vision').height();//alert(visionheight);83
+	valuesheight = $('.values').height();//alert(valuesheight);104
 });
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
-   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+	if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80 ) {
    	document.getElementById("navbar").style.top = "0";
+   	$('.mission').addClass('animated');
+		$('.mission').addClass('fadeInLeftBig');
    } else {
    	document.getElementById("navbar").style.top = "-20em";
+   	$('.mission').removeClass('animated');
+		$('.mission').removeClass('fadeInLeftBig');
+   }
+   if (document.body.scrollTop > 183 || document.documentElement.scrollTop > 183 && 
+   	document.body.scrollTop < 204 || document.documentElement.scrollTop < 204 ) {
+   	$('.vision').addClass('animated');
+		$('.vision').addClass('fadeInLeftBig');
+   }
+   else
+   {
+   	$('.vision').removeClass('animated');
+		$('.vision').removeClass('fadeInLeftBig');
+   }
+   if (document.body.scrollTop > 304 || document.documentElement.scrollTop > 304&& 
+   	document.body.scrollTop < 404 || document.documentElement.scrollTop < 404) {
+   	$('.values').addClass('animated');
+		$('.values').addClass('fadeInLeftBig');
+   }
+   else
+   {
+   	$('.values').removeClass('animated');
+		$('.values').removeClass('fadeInLeftBig');
    }
 }
 $(window).on('beforeunload', function(){
@@ -87,6 +110,33 @@ $(document).on('mouseover, mouseenter', '.mission h4,.vision h4, .values h4, .mi
 $(document).on('mouseout, mouseleave', '.mission h4,.vision h4, .values h4, .mission h5,.vision h5, .values h5', function(){
 	$(this).removeClass('animated	');
 	$(this).removeClass('pulse');
+});
+$(document).on('mouseover, mouseenter', '#proficiency', function(){
+	$(this).removeClass('jackInTheBox');
+	$(this).addClass('animated');
+	$(this).addClass('bounceIn');
+});
+$(document).on('mouseout, mouseleave', '#proficiency', function(){
+	$(this).removeClass('animated');
+	$(this).removeClass('bounceIn');
+});
+$(document).on('mouseover, mouseenter', '.aboutheading', function(){
+	$(this).removeClass('jackInTheBox');
+	$(this).addClass('animated');
+	$(this).addClass('bounceIn');
+});
+$(document).on('mouseout, mouseleave', '.aboutheading', function(){
+	$(this).removeClass('animated');
+	$(this).removeClass('bounceIn');
+});
+$(document).on('mouseover, mouseenter', '.contactheading', function(){
+	$(this).removeClass('jackInTheBox');
+	$(this).addClass('animated');
+	$(this).addClass('bounceIn');
+});
+$(document).on('mouseout, mouseleave', '.contactheading', function(){
+	$(this).removeClass('animated');
+	$(this).removeClass('bounceIn');
 });
 
 // $(document).on('click', '.dropdown-menu li', function(){
