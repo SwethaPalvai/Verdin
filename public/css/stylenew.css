@@ -5,7 +5,7 @@ body {
    /*background-color: #3AAFA9*/
 }
 nav {
-	display: none;
+   display: none;
 }
 #navbar {
    /*background-color: #333;*/
@@ -23,73 +23,73 @@ nav {
    z-index: 9;
 }
 .navbar-brand img {
-	height: 4em;
-	width: 8em; 
-	margin-top: -1.4em;
+   height: 4em;
+   width: 8em; 
+   margin-top: -1.4em;
 }
 .navbarright .dropdown .dropdown-menu li {
-	padding: 1em;
+   padding: 1em;
 }
 .dropdown-menu>li>a:hover {
    background-color: #2B7A78;
    color: #FEFFFF;
 }
 .navbanner {
-	background-image: url("https://echogravity.com/wp-content/uploads/2015/10/Slider-Image4.jpg");
-	min-height: 400px;
+   background-image: url("https://echogravity.com/wp-content/uploads/2015/10/Slider-Image4.jpg");
+   min-height: 400px;
 }
 .navitems {
-	text-align: right;
-	text-decoration: none;
-	padding: 2.5em;
-	font-size: 1.2em;
+   text-align: right;
+   text-decoration: none;
+   padding: 2.5em;
+   font-size: 1.2em;
 }
 .navitems a {
-	color: #FEFFFF;
-	text-decoration: none;
-	text-transform: uppercase;
+   color: #FEFFFF;
+   text-decoration: none;
+   text-transform: uppercase;
 }
 .navitems li {
-	display: inline;
-	padding: 1em;
+   display: inline;
+   padding: 1em;
 }
 .navitems li {
-	list-style:none;
+   list-style:none;
 }
 .navitems li img {
-	height: 4em;
-	width: 8em;
+   height: 4em;
+   width: 8em;
 } 
 .navitems ul li a:hover {
-	color: #FEFFFF!important;
-	background-color: #2B7A78;
+   color: #FEFFFF!important;
+   background-color: #2B7A78;
 }
 .dropdown-menu>.active>a {
    color: #FEFFFF!important;
    background-color: #2B7A78;
 }
 .navbanner>.navitems>ul>.linkli:hover {
-	background-color: #2B7A78;
-	color: #FEFFFF!important;
+   background-color: #2B7A78;
+   color: #FEFFFF!important;
 }
 .linkli:active {
-	background-color: #2B7A78!important;
-	color: #FEFFFF!important;
+   background-color: #2B7A78!important;
+   color: #FEFFFF!important;
 }
 .icon-bar {
-	background-color: #FEFFFF!important;
+   background-color: #FEFFFF!important;
 }
 .navbarinverse {
    border-radius: 0px!important;
 }
 .navbarinverse .navbartoggle {
-	background-color: #2B7A78!important;
-	border: none!important;
+   background-color: #2B7A78!important;
+   border: none!important;
 }
 .navbarinverse .navbarnav>li>a {
    color: #222222;
    font-size: 1em;
-	text-transform: uppercase;
+   text-transform: uppercase;
 }
 .navbarinverse .navbarnav>li>a:hover {
    color: #FEFFFF;
@@ -112,7 +112,7 @@ nav {
    background-color: #2B7A78;
 }
 .dropdown-menu {
-	padding: 0px;
+   padding: 0px;
 }
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
    color: #FEFFFF;
@@ -127,7 +127,7 @@ footer {
    
 }
 .topfooter {
-   background-image: url("../images/tumblr_nhiz56dRI21txyizko1_500.gif");
+   /*background-image: url("../images/tumblr_nhiz56dRI21txyizko1_500.gif");*/
    /*background-size: cover;*/
    background-color: #383f48;
    color: #97a0ae;
@@ -176,10 +176,10 @@ footer {
    text-align: center;
 }
 #proficiency {
-	padding: 1em;
+   padding: 1em;
 }
 .proficiency{
-	background:whitesmoke;
+   background:whitesmoke;
 }
 .centered {
    position: absolute;
@@ -188,9 +188,9 @@ footer {
    transform: translate(-50%, -50%);
 }
 .zoom img {
-	height: 20em;
-	width: 25em;
-	opacity: 0.8;
+   height: 20em;
+   width: 25em;
+   opacity: 0.8;
 }
 .zoom {
    transition: transform .5s;
@@ -254,7 +254,7 @@ footer {
    -webkit-transition: 0.5s;
    -o-transition: 0.5s;    
 }
-hr {
+.hr {
    width: 3em;
    margin-top: 0.3em;
    border-top: 0.2em solid #2B7A78;
@@ -334,6 +334,42 @@ hr {
 .employerdescription, .jobseekerdescription {
    line-height:1.5em;
 }
+.jobs {
+   padding: 2em;
+}
+.jobhr {
+   margin-top: 1.5em;
+   border-top: 0.1em solid #d7d7d7;
+}
+.jobdeschr {
+   margin-top: 1.5em;
+   border-top: 0.1em solid #d7d7d7;
+}
+.viewjob {
+   color: #3AAFA9;
+   margin-top:7em;
+   border: 1px solid #3AAFA9;
+}
+.viewjob:hover {
+   background-color: #2B7A78;
+   color: #FEFFFF;
+}
+.jobdetails {
+   padding: 2em; 
+}
+.jobdetails h4 {
+   padding: 0.8em; 
+}
+.jobheading {
+   padding-top: 1.8em;
+   padding-bottom: 1.8em;
+}
+.jobdesc {
+   padding: 2em;
+}
+.jobdesc .desc {
+   padding-bottom: 1.5em;
+}
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -359,32 +395,32 @@ hr {
 
 @media (min-width: 768px) and (max-width: 1024px) {
    .navitems {
-		padding-left: 1.5em;
-		padding-right: 1.5em;
-		padding-top: 2.5;
-		padding-bottom: 1.5em;
-		font-size: 1em;
-	}
-	.navitems li {
-		padding: 0.6em;
-	}
-	#navbar {
-	   padding: 1.1em;
-	   font-size: 0.9em;
-	}
-	.navbar-brand img {
-		height: 3em;
-		width: 7em; 
-		margin-top: -1em;
-	}
-	.navbarright .dropdown .dropdown-menu li {
-		padding: 0.8em;
-	}
-	.zoom img {
-		height: 30em;
-		width: 14.3em;
-		opacity: 0.8;
-	}
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+      padding-top: 2.5;
+      padding-bottom: 1.5em;
+      font-size: 1em;
+   }
+   .navitems li {
+      padding: 0.6em;
+   }
+   #navbar {
+      padding: 1.1em;
+      font-size: 0.9em;
+   }
+   .navbar-brand img {
+      height: 3em;
+      width: 7em; 
+      margin-top: -1em;
+   }
+   .navbarright .dropdown .dropdown-menu li {
+      padding: 0.8em;
+   }
+   .zoom img {
+      height: 20em;
+      width: 30em;
+      opacity: 0.8;
+   }
    .navbar {
       border-radius: 0px!important;
    }
@@ -405,16 +441,16 @@ hr {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-	.navitems {
-		padding-left: 1.2em;
-		padding-right: 1.2em;
-		padding-top: 2.5;
-		padding-bottom: 1.2em;
-		font-size: 1em;
-	}
-	.navitems li {
-		padding: 0.5em;
-	}
+   .navitems {
+      padding-left: 1.2em;
+      padding-right: 1.2em;
+      padding-top: 2.5;
+      padding-bottom: 1.2em;
+      font-size: 1em;
+   }
+   .navitems li {
+      padding: 0.5em;
+   }
    .topfootermobile {
       display: block;
       background-color: #383f48;
@@ -424,7 +460,7 @@ hr {
    .topfooter {
       display: none;
    }
-   .topfootermobile hr {
+   .topfootermobile .hr {
       margin-top: -1em;
       width: 1em;
       margin-bottom: 0em;
@@ -449,7 +485,7 @@ hr {
    .topfooter {
       display: none;
    }
-   .topfootermobile hr {
+   .topfootermobile .hr {
       margin-top: -1em;
       width: 1em;
       margin-bottom: 0em;
@@ -483,9 +519,11 @@ hr {
 	#navbar {
 		display: none;
 	}
+   .viewjob {
+      margin-top:1em;
+   }
 }
-.navbanner .navitems .navbanneritems>.active{
+.navbanner .navitems .navbanneritems>.active {
 	background-color: #2B7A78;
 	color: #FEFFFF!important;
 }
-
