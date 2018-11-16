@@ -8,7 +8,7 @@ nav {
    display: none;
 }
 #navbar {
-   background-color: #557A95;
+   background-color: #F13C20;
    /*background-color: #17252A;*/
    position: fixed;
    top: -20em;
@@ -21,7 +21,7 @@ nav {
    font-size: 1.2em;
    text-transform: uppercase;
    z-index: 9;
-   border-color: #557A95;
+   border-color: #F13C20;
 }
 .navbar-brand img {
    height: 4em;
@@ -32,8 +32,8 @@ nav {
    padding: 1em;
 }
 .dropdown-menu>li>a:hover {
-   background-color: #7395AE;
-   color: #FEFFFF;
+   background-color: #D79922;
+   color: #EFE2BA;
 }
 .navbanner {
    background-image: url("../images/pexels-photo-776615.jpeg");
@@ -63,21 +63,21 @@ nav {
    width: 8em;
 } 
 .navitems ul li :hover {
-   color: #FEFFFF!important;
+   color: #EFE2BA!important;
    /*background-color: #2B7A78;*/
 }
 .dropdown-menu>.active>a {
    color: #FEFFFF!important;
-   background-color: #7395AE;
+   background-color: #2B7A78;
 }
 /*.navbanner>.navitems>ul>.linkli:hover {
    background-color: #2B7A78;
    color: #EFE2BA!important;
 }*/
-/*.linkli:active {
-   background-color: #7395AE!important;
-   color: #FEFFFF!important;
-}*/
+.linkli:active {
+   background-color: #D79922!important;
+   color: #EFE2BA!important;
+}
 .icon-bar {
    background-color: #FEFFFF!important;
 }
@@ -85,7 +85,7 @@ nav {
    border-radius: 0px!important;
 }
 .navbarinverse .navbartoggle {
-   background-color: #557A95!important;
+   background-color: #2B7A78!important;
    border: none!important;
 }
 .navbarinverse .navbarnav>li>a {
@@ -108,9 +108,9 @@ nav {
 .navbar-inverse .navbar-nav>li>a {
    color: #FEFFFF;
 }
-/*.navbar-inverse .navbar-nav>li>a:hover {
-   color: #4056A1;
-}*/
+.navbar-inverse .navbar-nav>li>a:hover {
+   color: #EFE2BA;
+}
 .navbarinverse .navbarnav .open .dropdown-menu>li>a:active {
    color: #FEFFFF;
    background-color: #2B7A78;
@@ -128,9 +128,9 @@ nav {
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.open>a, 
 .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-   color: #FEFFFF;/*FEFFFF;*/
+   color: #EFE2BA;/*FEFFFF;*/
    /*background-color: #2B7A78;*/
-   background-color: #7395AE;
+   background-color: #D79922;
 }
 footer {
    
@@ -206,7 +206,7 @@ footer {
    margin: 0 auto;
    position: relative;
    text-align: center;
-   color: #FEFFFF;
+   color: #D79922;
    margin-top: 2em;
 }
 .zoom img:hover {
@@ -240,8 +240,8 @@ footer {
    -o-transition: 0.5s;       
 }
 .scroll:hover {
-   border: 1px solid #557A95;
-   background: #557A95;
+   border: 1px solid #F13C20;
+   background: #F13C20;
    transition: 0.5s;
    -moz-transition: 0.5s;
    -webkit-transition: 0.5s;
@@ -266,7 +266,7 @@ footer {
 .hr {
    width: 3em;
    margin-top: 0.3em;
-   border-top: 0.2em solid #557A9E;
+   border-top: 0.2em solid #F13C20;
 }
 .ContactUs {
    padding: 3em;
@@ -275,17 +275,16 @@ footer {
    margin-bottom: 2em;
 }
 .fa-map-marker, .fa-phone, .fa-envelope-o {
-   border: 1px solid #557A95;
+   border: 1px solid #2B7A78;
    border-radius: 50%;
    padding: 2em;
-   background-color: #557A95;
-   color: #FEFFFF;
+   background-color: #2B7A78;
 }
 .fa-map-marker:hover, .fa-phone:hover, .fa-envelope-o:hover {
-   background-color: #7395AE;
+   background-color: #3AAFA9;
 }
 .description:hover, #addr:hover, #phone:hover, #email:hover {
-   color: #557A95;
+   color: #2B7A78;
 }
 #phone, #email {
    margin-left: 1.8em;
@@ -304,7 +303,7 @@ footer {
 }
 .AboutUs {
    padding: 5em;
-   background-color: #7395AE;
+   background-color: #2B7A78;
 }
 .AboutUs h2 {
    margin-bottom: 2em;
@@ -319,7 +318,7 @@ footer {
    /*margin-bottom: 2em;*/
 }
 .valuesrow {
-   background-color: #7395AE;
+   background-color: #2B7A78;
 }
 /*.foremployers {
    padding: 5em;
@@ -330,14 +329,13 @@ footer {
 }*/
 .staffing {
    padding: 5em;
-   background-color: #9FAAD0;
+   background-color: #3AAFA9;
    margin-top: 1em;
-   color: #FEFFFF;
 }
 .forjobseekers {
    /*background-image: url("../images/banner4btn.jpg");*/
    background-repeat:no-repeat;
-   background-color: #819fb6;
+   background-color: #3AAFA9;
    width: 100%;
    /*padding: 3em;*/
 }
@@ -365,12 +363,12 @@ footer {
    width:0; top:0; height:0;
    left: -8em; /* -3.125em 8*/
    border-bottom: 22.1em solid transparent; /* 22em 22.3*/
-   border-right: 8em solid #819fb6; /* -3.125em 8*/
+   border-right: 8em solid #3AAFA9; /* -3.125em 8*/
 }
 .foremployers {
-   background-color: #4056A1;
-   /*margin-top: 2em;
-   margin-bottom: 2em;*/
+   background-color: #2B7A78;
+   margin-top: 2em;
+   margin-bottom: 2em;
 }
 .diagonal-img-employers {
    float:right; 
@@ -389,7 +387,7 @@ footer {
    width:0; top:0; height:0;
    right: -8em; /* -3.125em 8*/
    border-bottom: 22.1em solid transparent; /* 22em 22.3*/
-   border-left: 8em solid #4056A1; /* -3.125em 8*/
+   border-left: 8em solid #2B7A78; /* -3.125em 8*/
 }
 .employerdescription, .jobseekerdescription {
    line-height:1.5em;
@@ -406,12 +404,12 @@ footer {
    border-top: 0.1em solid #d7d7d7;
 }
 .viewjob {
-   color: #7395AE;
+   color: #3AAFA9;
    margin-top:7em;
-   border: 1px solid #7395AE;
+   border: 1px solid #3AAFA9;
 }
 .viewjob:hover {
-   background-color: #7395AE;
+   background-color: #2B7A78;
    color: #FEFFFF;
 }
 .jobdetails {
@@ -462,7 +460,7 @@ footer {
       font-size: 1em;
    }
    .navitems li {
-      padding: 0.5em;
+      padding: 0.6em;
    }
    #navbar {
       padding: 1.1em;
@@ -548,29 +546,6 @@ footer {
       position: unset;
       padding: 5em;
    }
-   .hr {
-      width: 1em;
-      margin-top: 0.3em;
-      border-top: 0.2em solid #557A9E;
-   }
-   /*.diagonal-img-employers {
-      float:right; 
-      width:40%;
-   }
-   .diagonal-text-employers {
-      float:left; 
-      width:60%;
-      height:22em; 
-      position:relative;
-      padding: 5em;
-   }
-   .diagonal-text-employers:after {
-      position: absolute; content:"";
-      width:0; top:0; height:0;
-      right: -3.125em;
-      border-bottom: 22.1em solid transparent;
-      border-left: 3.125em solid #4056A1;
-   }*/
 }
 
 /* 
@@ -632,12 +607,12 @@ footer {
 		display: none;
 	}
 	.navbarinverse {
-		background-color: #557A95;
+		background-color: #2B7A78;
 		border-color: white!important;
 		border: none;
 	}
 	.navbarcollapse {
-		border-color: #557A95!important;
+		border-color: #2B7A78!important;
 	}
 	#navbar {
 		display: none;
@@ -647,6 +622,6 @@ footer {
    }
 }
 .navbanner .navitems .navbanneritems>.active {
-	background-color: #7395AE;
+	background-color: #D79922;
 	color: #EFE2BA!important;
 }
