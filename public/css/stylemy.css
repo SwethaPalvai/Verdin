@@ -8,20 +8,20 @@ nav {
    display: none;
 }
 #navbar {
-   background-color: #557A95;
+   background-color: #5cdb95;
    /*background-color: #17252A;*/
    position: fixed;
    top: -20em;
    width: 100%;
    display: block;
    transition: top 0.3s;
-   color: #FEFFFF;
+   color: #edf5e1;
    padding: 1.5em;
    text-decoration: none;
    font-size: 1.2em;
    text-transform: uppercase;
    z-index: 9;
-   border-color: #557A95;
+   border-color: #5cdb95;
 }
 .navbar-brand img {
    height: 4em;
@@ -32,12 +32,12 @@ nav {
    padding: 1em;
 }
 .dropdown-menu>li:hover {
-   background-color: #7395AE;
-   color: #FEFFFF;
+   /*background-color: #05386b;*/
+   color: #5cdb95!important;
 }
 .dropdown-menu>li>a:hover {
-   background-color: #7395AE;
-   /*color: #FEFFFF;*/
+   /*background-color: #05386b;*/
+   color: #5cdb95;
 }
 .navbanner {
    background-image: url("../images/pexels-photo-776615.jpeg");
@@ -51,7 +51,7 @@ nav {
    font-size: 1.2em;
 }
 .navitems a {
-   color: #FEFFFF;
+   color: #EDF5E1;
    text-decoration: none;
    text-transform: uppercase;
 }
@@ -71,8 +71,12 @@ nav {
    background-color: #7395AE;
 }*/
 .dropdown-menu>.active>a {
-   color: #FEFFFF!important;
-   background-color: #7395AE;
+   background-color: #05386b!important;
+   color: #EDF5E1!important;
+}
+.dropdown-menu>.active {
+   background-color: #05386b!important;
+   color: #EDF5E1!important;
 }
 /*.navbanner>.navitems>ul>.linkli:hover {
    background-color: #2B7A78;
@@ -89,7 +93,7 @@ nav {
    border-radius: 0px!important;
 }
 .navbarinverse .navbartoggle {
-   background-color: #557A95!important;
+   background-color: #5CDB95!important;
    border: none!important;
 }
 .navbarinverse .navbarnav>li>a {
@@ -98,25 +102,25 @@ nav {
    text-transform: uppercase;
 }
 .navbarinverse .navbarnav>li>a:hover {
-   color: #FEFFFF;
+   color: #EDF5E1;
 }
 .navbarinverse .navbarnav>.open>a, .navbarinverse .navbarnav>.open>a:focus, .navbarinverse .navbarnav>.open>a:hover {
-   color: #FEFFFF;
+   color: #EDF5E1;
    background-color: #2B7A78;
 }
 .navbarinverse .navbarnav .open .dropdown-menu>li>a {
-   color: #17252A;
+   color: #EDF5E1;
    font-size: 0.8em;
    text-transform: uppercase;
 }
 .navbar-inverse .navbar-nav>li>a {
-   color: #FEFFFF;
+   color: #EDF5E1;
 }
 /*.navbar-inverse .navbar-nav>li>a:hover {
    color: #4056A1;
 }*/
 .navbarinverse .navbarnav .open .dropdown-menu>li>a:active {
-   color: #FEFFFF;
+   color: #EDF5E1;
    background-color: #2B7A78;
 }
 .navbarinverse .navbarnav .open .dropdown-menu>li>a:hover {
@@ -132,9 +136,9 @@ nav {
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.open>a, 
 .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-   color: #FEFFFF;/*FEFFFF;*/
+   color: #edf5e1;/*FEFFFF;*/
    /*background-color: #2B7A78;*/
-   background-color: #7395AE;
+   background-color: #05386b;
 }
 footer {
    
@@ -142,7 +146,7 @@ footer {
 .topfooter {
    /*background-image: url("../images/tumblr_nhiz56dRI21txyizko1_500.gif");*/
    /*background-size: cover;*/
-   background-color: #383f48;
+   background-color: #05386b;
    color: #97a0ae;
    padding: 3em;
 }
@@ -183,7 +187,7 @@ footer {
 }
 .bottomfooter {
    /*background-color: #151515;*/
-   background-color: #30353c; /* #17252A */
+   background-color: #043260; /* #17252A */
    color: #97a0ae; /* #585858; */
    padding: 2em;
    text-align: center;
@@ -230,11 +234,11 @@ footer {
 }
 .scroll {
    position:absolute;
-   right:20px;
-   bottom:20px;
-   border: 1px solid #b2b2b2;
-   color: #f15a29;
-   padding:15px;
+   right:5px;
+   bottom:5px;
+   /*border: 1px solid #05386b;
+   color: #f15a29;*/
+   padding:5px;
    text-align: center;
    margin: 0 0 0 0;
    cursor:pointer;
@@ -244,15 +248,14 @@ footer {
    -o-transition: 0.5s;       
 }
 .scroll:hover {
-   border: 1px solid #557A95;
-   background: #557A95;
+   background: #5cdb95;
    transition: 0.5s;
    -moz-transition: 0.5s;
    -webkit-transition: 0.5s;
    -o-transition: 0.5s;       
 }
-.fa-arrow-up {
-   color: #767e78;
+.fa-angle-up {
+   color: #5cdb95;
 }
 .scroll:hover .fa {
    padding-top:-10px;
@@ -270,7 +273,7 @@ footer {
 .hr {
    width: 3em;
    margin-top: 0.3em;
-   border-top: 0.2em solid #557A9E;
+   border-top: 0.2em solid #5cdb95;
 }
 .ContactUs {
    padding: 3em;
@@ -279,17 +282,17 @@ footer {
    margin-bottom: 2em;
 }
 .fa-map-marker, .fa-phone, .fa-envelope-o {
-   border: 1px solid #557A95;
+   border: 1px solid #05386b;
    border-radius: 50%;
    padding: 2em;
-   background-color: #557A95;
-   color: #FEFFFF;
+   background-color: #05386b;
+   color: #edf5e1;
 }
 .fa-map-marker:hover, .fa-phone:hover, .fa-envelope-o:hover {
-   background-color: #7395AE;
+   background-color: #365F88;
 }
 .description:hover, #addr:hover, #phone:hover, #email:hover {
-   color: #557A95;
+   color: #365F88;
 }
 #phone, #email {
    margin-left: 1.8em;
@@ -410,13 +413,13 @@ footer {
    border-top: 0.1em solid #d7d7d7;
 }
 .viewjob {
-   color: #7395AE;
+   color: #05386b;
    margin-top:7em;
-   border: 1px solid #7395AE;
+   border: 1px solid #05386b;
 }
 .viewjob:hover {
-   background-color: #7395AE;
-   color: #FEFFFF;
+   background-color: #05386b;
+   color: #EDF5E1;
 }
 .jobdetails {
    padding: 2em; 
@@ -517,7 +520,7 @@ footer {
    }
    .topfootermobile {
       display: block;
-      background-color: #383f48;
+      background-color: #05386b;
       color: #97a0ae;
       padding: 3em;
    }
@@ -555,7 +558,7 @@ footer {
    .hr {
       width: 1em;
       margin-top: 0.3em;
-      border-top: 0.2em solid #557A9E;
+      border-top: 0.2em solid #5CDB95;
    }
    /*.diagonal-img-employers {
       float:right; 
@@ -583,9 +586,12 @@ footer {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+   .navbanner {
+      display: none;
+   }
    .topfootermobile {
       display: block;
-      background-color: #383f48;
+      background-color: #05386b;
       color: #97a0ae;
       padding: 3em;
    }
@@ -636,7 +642,7 @@ footer {
 		display: none;
 	}
 	.navbarinverse {
-		background-color: #557A95;
+		background-color: #5CDB95;
 		border-color: white!important;
 		border: none;
 	}
@@ -651,6 +657,6 @@ footer {
    }
 }
 .navbanner .navitems .navbanneritems>.active {
-	background-color: #7395AE;
-	color: #EFE2BA!important;
+	background-color: #05386b;
+	color: #edf5e1!important;
 }
