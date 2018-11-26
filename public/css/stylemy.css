@@ -1,6 +1,6 @@
 /* Swetha Oct 24  */
 body {
-   font-family: Helvetica,Georgia,Lato,Helvetica,Arial,sans-serif;
+   font-family:  Graphik-Regular-Web,Tahoma,Helvetica,Georgia,Lato,Helvetica,Arial,sans-serif;
    overflow-x: hidden;
    /*background-color: #3AAFA9*/
 }
@@ -437,6 +437,58 @@ footer {
 .jobdesc .desc {
    padding-bottom: 1.5em;
 }
+.staffingrecritheading {
+   color: #5CDB95;
+   padding: 1em;
+}
+.pcontent {
+   color: #858585;
+   font-size: 17px;
+}
+.candidates {
+   padding: 5em;
+}
+.candidates h4{
+   font-size: 23px;
+}
+.candidates img {
+   height: 25em;
+   width: 37.5em;
+}
+.sourcing {
+   padding: 9em;
+   height: 20em;
+   font-size: 17px;
+}
+.sourcingimg {
+   padding: 0px;
+}
+.renewalrate {
+   padding: 5em;
+   font-size: 19px;
+}
+.noheight {
+   line-height: 1.2em!important;
+}
+.renewalrate p, .valueproposition p {
+   line-height: 1.8em;
+}
+.renewalrate li, .valueproposition li {
+   line-height: 2.8em;
+   margin-left: -20px;
+}
+.renewalrate h2, .valueproposition h2 {
+   margin-top: -1px;
+}
+.renewalratehr {
+   border: 0.5px solid #d7d7d7;
+   margin-top: 3em;
+   margin-bottom: 0px;
+}
+.valueproposition {
+   font-size: 19px;
+}
+
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -490,6 +542,13 @@ footer {
    }
    .navbar {
       border-radius: 0px!important;
+   }
+   .sourcing {
+      padding: 2em;
+      height: 19em;
+   }
+   .sourcingimg {
+      margin-top: 1em;
    }
 }
 
@@ -559,6 +618,16 @@ footer {
       width: 1em;
       margin-top: 0.3em;
       border-top: 0.2em solid #5CDB95;
+   }
+   .candidates {
+      padding: 1em;
+   }
+   .sourcing {
+      padding: 2em;
+      height: 17em;
+   }
+   .sourcingimg {
+      margin-top: 1em;
    }
    /*.diagonal-img-employers {
       float:right; 
@@ -631,6 +700,16 @@ footer {
       height: 22em; 
       position: unset;
       padding: 5em;
+   }
+   .candidates {
+      padding: 1em;
+   }
+   .sourcing {
+      padding: 2em;
+      height: 22em;
+   }
+   .sourcingimg {
+      margin-top: 1em;
    }
 }
 
