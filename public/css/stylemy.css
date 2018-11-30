@@ -8,7 +8,7 @@ nav {
    display: none;
 }
 #navbar {
-   background-color: #5cdb95;
+   background-color: #FF5D56; /*5cdb95; */
    /*background-color: #17252A;*/
    position: fixed;
    top: -20em;
@@ -21,7 +21,7 @@ nav {
    font-size: 1.2em;
    text-transform: uppercase;
    z-index: 9;
-   border-color: #5cdb95;
+   border-color: #FF5D56; /*5cdb95; */
 }
 .navbar-brand img {
    height: 4em;
@@ -37,7 +37,7 @@ nav {
 }
 .dropdown-menu>li>a:hover {
    /*background-color: #05386b;*/
-   color: #5cdb95;
+   color: #FF5D56; /*5CDB95;*/
 }
 .navbanner {
    background-image: url("../images/pexels-photo-776615.jpeg");
@@ -93,7 +93,7 @@ nav {
    border-radius: 0px!important;
 }
 .navbarinverse .navbartoggle {
-   background-color: #5CDB95!important;
+   background-color: #FF5D56!important; /*5cdb95; */
    border: none!important;
 }
 .navbarinverse .navbarnav>li>a {
@@ -248,14 +248,14 @@ footer {
    -o-transition: 0.5s;       
 }
 .scroll:hover {
-   background: #5cdb95;
+   background: #FF5D56; /*5cdb95; */
    transition: 0.5s;
    -moz-transition: 0.5s;
    -webkit-transition: 0.5s;
    -o-transition: 0.5s;       
 }
 .fa-angle-up {
-   color: #5cdb95;
+   color: #FF5D56; /*5cdb95; */
 }
 .scroll:hover .fa {
    padding-top:-10px;
@@ -273,7 +273,7 @@ footer {
 .hr {
    width: 3em;
    margin-top: 0.3em;
-   border-top: 0.2em solid #5cdb95;
+   border-top: 0.2em solid #FF5D56; /*5cdb95; */
 }
 .ContactUs {
    padding: 3em;
@@ -438,7 +438,7 @@ footer {
    padding-bottom: 1.5em;
 }
 .staffingrecritheading {
-   color: #5CDB95;
+   color: #FF5D56; /*5cdb95; */
    padding: 1em;
 }
 .pcontent {
@@ -617,17 +617,28 @@ footer {
    .hr {
       width: 1em;
       margin-top: 0.3em;
-      border-top: 0.2em solid #5CDB95;
+      border-top: 0.2em solid #FF5D56; /*5CDB95;*/
    }
    .candidates {
       padding: 1em;
    }
-   .sourcing {
+   .sourcingtop {
       padding: 2em;
-      height: 17em;
+      height: 9em;
+   }
+   .sourcingbottom {
+      padding: 2em;
+      height: 13em;
    }
    .sourcingimg {
       margin-top: 1em;
+   }
+   .renewalratehr {
+      margin-top: 2em;
+      margin-bottom: -22px;
+   }
+   .container-fluid {
+      padding-left: 92px;
    }
    /*.diagonal-img-employers {
       float:right; 
@@ -704,9 +715,20 @@ footer {
    .candidates {
       padding: 1em;
    }
-   .sourcing {
+   .candidates h4 {
+      padding: 0.5em;
+   }
+   .candidates img {
+      height: 20em;
+      width: 37.5em;
+   }
+   .sourcingtop {
       padding: 2em;
-      height: 22em;
+      height: 14em;
+   }
+   .sourcingbottom {
+      padding: 2em;
+      height: 19em;
    }
    .sourcingimg {
       margin-top: 1em;
@@ -721,7 +743,7 @@ footer {
 		display: none;
 	}
 	.navbarinverse {
-		background-color: #5CDB95;
+		background-color: #FF5D56; /*5cdb95; */
 		border-color: white!important;
 		border: none;
 	}

@@ -10,6 +10,34 @@ $(document).ready(function(){
 	abtheight = $('.AboutUs').height();//alert(abtheight);104
 	visionheight = $('.vision').height();//alert(visionheight);83
 	valuesheight = $('.values').height();//alert(valuesheight);104
+	if ($(window).width() <= 767) {
+		if($('.outsourcingm').hasClass('hide')) {
+			$('.outsourcingm').removeClass('hide');
+			$('.outsourcingm').addClass('show');
+			$('.outsourcingl').addClass('hide');
+		} 
+		else
+		{
+			if($('.outsourcingl').hasClass('hide')) {
+				$('.outsourcingl').removeClass('hide');
+				$('.outsourcingl').addClass('show');
+				$('.outsourcingm').addClass('hide');
+			}
+		}
+		if($('.staffingm').hasClass('hide')) {
+			$('.staffingm').removeClass('hide');
+			$('.staffingm').addClass('show');
+			$('.staffingl').addClass('hide');
+		}
+		else
+		{
+			if($('.staffingl').hasClass('hide')) {
+				$('.staffingl').removeClass('hide');
+				$('.staffingl').addClass('show');
+				$('.staffingm').addClass('hide');
+			}
+		}
+	}
 });
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
