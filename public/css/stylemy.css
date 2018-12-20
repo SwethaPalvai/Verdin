@@ -5,7 +5,8 @@ body {
    /*background-color: #3AAFA9*/
 }
 nav {
-   display: none;
+   display: none;   
+   
 }
 #navbar {
    background-color: #FF5D56; /*5cdb95; */
@@ -310,7 +311,6 @@ footer {
    padding: 1.5em;
 }
 .AboutUs {
-   padding: 5em;
    background-color: #7395AE;
 }
 .AboutUs h2 {
@@ -319,7 +319,7 @@ footer {
 .mission h5, .vision h5, .values h5 {
    line-height: 1.5em;
 }
-.vision, .values {
+.mission,.vision, .values {
    padding: 5em;
 }
 .container-fluid h2 {
@@ -426,6 +426,7 @@ footer {
 }
 .jobdetails h4 {
    padding: 0.8em; 
+   word-break: break-word;
 }
 .jobheading {
    padding-top: 1.8em;
