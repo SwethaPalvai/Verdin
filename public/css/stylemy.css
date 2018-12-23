@@ -605,7 +605,7 @@ footer {
       position: unset;
       padding: 5em;
    }
-   .diagonal-img-employers {
+   .diagonal-img-employers,.diagonal-text-employers:after {
       display: none;
    }
    .diagonal-text-employers {
@@ -701,9 +701,9 @@ footer {
       width: 100%; 
       height: 22em; 
       position: unset;
-      padding: 5em;
+      padding: 2em;
    }
-   .diagonal-img-employers {
+   .diagonal-img-employers,.diagonal-text-employers:after {
       display: none;
    }
    .diagonal-text-employers {
@@ -711,7 +711,7 @@ footer {
       width: 100%; 
       height: 22em; 
       position: unset;
-      padding: 5em;
+      padding: 2em;
    }
    .candidates {
       padding: 1em;
@@ -734,6 +734,11 @@ footer {
    .sourcingimg {
       margin-top: 1em;
    }
+   .staffing {
+   padding: 2em;   
+	}
+	.staffing  h2{
+	}
 }
 
 @media (max-width: 767px) {
